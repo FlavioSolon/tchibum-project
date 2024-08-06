@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('cep',9)->nullable();
             $table->string('cidade')->nullable();
             $table->string('identificacao')->nullable()->unique();
-            $table->string('proficao')->nullable(); //tste
+            $table->string('proficao')->nullable(); //tste 2
             $table->string('nacionalidade')->nullable();
             $table->string('estado')->nullable();
             $table->string("role")->default('user');
